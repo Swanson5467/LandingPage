@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    padding: 40px;
 }
 
 .HeaderLogo {
@@ -36,6 +37,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 30px;
 }
 
 .Text {
@@ -43,6 +45,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    width: 400px;
 }
 
 .InformationHeader {
@@ -55,6 +58,8 @@
     align-self: center;
     padding: 5px 8px;
     margin: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
 }
 
 
@@ -64,7 +69,7 @@
 
 
 
-
+/*
 
 .Section1 {
     border: 1px solid black;
