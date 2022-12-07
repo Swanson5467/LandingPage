@@ -3,6 +3,7 @@
 .Section1 {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
 
 .Header {
@@ -13,6 +14,8 @@
 
 .HeaderLogo {
     padding-left: 20px;
+    font-size: 24px;
+    color: #f9faf8
 }
 
 .HeaderLinks {
@@ -20,11 +23,39 @@
     gap: 20px;
 }
 
+.HeaderLinks, .DescriptionText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .HeaderLinkThree {
     padding-right: 20px;
 }
 
+.Content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
+.Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.InformationHeader {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.Button {
+    align-self: center;
+    padding: 5px 8px;
+    margin: 5px;
+}
 
 
 
@@ -41,4 +72,8 @@
 
 .Header, .Content {
     border: 1px solid red
+}
+
+.Text {
+    border: 1px solid lightgreen;
 }
