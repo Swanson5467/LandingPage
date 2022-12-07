@@ -1,2 +1,23 @@
 
 
+.Section1 {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Section1 {
+    border: 1px solid black;
+}
+
+.Header, .Content {
+    border: 1px solid red
+}
