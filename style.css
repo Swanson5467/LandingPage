@@ -102,16 +102,45 @@
 }
 
 
+/* Section 3 */
+
+
+.Section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    gap: 50px;
+    align-items: center;
+}
+
+.S3Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.QuoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 750px;
+    text-align: left;
+}
+
+.AuthorText {
+    align-self: flex-end;
+}
 
 
 
 
-
-
-
-
-.Section2 {
+.Section3 {
     border: 1px solid turquoise;
+}
+.S3Content {
+    border: 1px solid red;
+}
+.QuoteText, .AuthorText {
+    border: 1px solid black;
 }
 /*
 
