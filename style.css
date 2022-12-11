@@ -108,8 +108,8 @@
 .Section3 {
     display: flex;
     flex-direction: column;
+    padding: 75px;
     background-color: #e5e7eb;
-    gap: 50px;
     align-items: center;
 }
 
@@ -128,20 +128,65 @@
 
 .AuthorText {
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Section 4 */
+
+.Section4 {
+    display: flex;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+.S4Content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    width: 1000px;
+    gap: 100px;
+    padding: 80px;
+    margin: 50px;
+    background-color: #3882f6;
+}
+
+.S4Text1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.S4Text2 {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.S4Button {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    transition-duration: 0.4s;
+}
+
+.Button:hover, .S4Button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    cursor: grab;
 }
 
 
 
 
-.Section3 {
-    border: 1px solid turquoise;
-}
-.S3Content {
-    border: 1px solid red;
-}
-.QuoteText, .AuthorText {
-    border: 1px solid black;
-}
+
+
 /*
 
 .Section1 {
